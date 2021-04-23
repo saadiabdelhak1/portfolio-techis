@@ -1,0 +1,56 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  width: 100%;
+  border: rgb(192, 192, 192) 1px solid;
+  margin: 20px;
+}
+
+.box .image {
+  width: 40%;
+}
+
+.box .image img {
+  width: 100%;
+}
+
+.box .about {
+  width: 58%;
+  height: 85%;
+}
+
+.box .about p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.box .about .links {
+  display: flex;
+  top: 80%;
+}
+
+.box .about .links .github {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 20px;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 10%;
+  background-color: #8b8b8b80;
+  font-family: sans-serif;
+}
+.box .about .links .website {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 20px;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 10%;
+  background-color: #33333380;
+  font-family: sans-serif;
+}
