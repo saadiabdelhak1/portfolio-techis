@@ -3,18 +3,18 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Footer from './components/Links';
 import NavBar from './components/NavBar';
+import About from './components/About';
 import './App.css';
 
 function App() {
   return (
     <Router>
       <div className="app">
-      <NavBar/>
-        <switch>
-          <Route exact path="/" component={Home} /> 
-        </switch>
-      <Footer/>
-      <Projects/>
+        <NavBar/>         
+        <Route exact path="/" component={Home} />          
+        <Footer/>
+        <About/>
+        <Projects/>
       </div> 
     </Router>
     

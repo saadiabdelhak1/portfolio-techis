@@ -2,9 +2,8 @@
   display: flex;
   justify-content: space-between;
   padding: 2%;
-  width: 100%;
   border: rgb(192, 192, 192) 1px solid;
-  margin: 20px;
+  margin: 5%;
 }
 
 .box .image {
@@ -22,7 +21,7 @@
 
 .box .about p {
   font-size: 12px;
-  line-height: 20px;
+  line-height: 150%;
 }
 
 .box .about .links {
@@ -34,10 +33,10 @@
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 14px;
-  margin: 20px;
+  font-size: 12px;
+  margin: 5%;
   color: #ffffff;
-  padding: 10px 15px;
+  padding: 2%;
   border-radius: 10%;
   background-color: #8b8b8b80;
   font-family: sans-serif;
@@ -46,11 +45,12 @@
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 14px;
-  margin: 20px;
+  font-size: 12px;
+  margin: 5%;
   color: #ffffff;
-  padding: 10px 15px;
+  padding: 2%;
   border-radius: 10%;
-  background-color: #33333380;
+  background-color: #2e2e2e80;
   font-family: sans-serif;
 }
+

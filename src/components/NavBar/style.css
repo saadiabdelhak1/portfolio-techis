@@ -41,15 +41,18 @@ margin-bottom: 15px;
 
 .list-wrapper ul li a{
 display: block;
-font-size: 24px;
+font-size: 20px;
+font-weight: normal;
 padding: 10px 0;
 color: #dddddd;
 text-decoration: none;
-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-out;
 }
 
 .list-wrapper ul li a:hover {
 color: #000000;
+font-size: 30px;
+font-weight: bold;
 background-color: #dddddd;
 }
 

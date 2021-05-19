@@ -1,6 +1,6 @@
 import React from 'react';
-import twitter from "./images/project-twitter.png";
-import netflix from "./images/project-netflix.png";
+import twitter from "./images/project-twitter-min.png";
+import netflix from "./images/project-netflix-min.png";
 import "./style.css";
 
 const Projects = () => {

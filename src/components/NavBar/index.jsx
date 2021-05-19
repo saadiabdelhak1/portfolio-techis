@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link} from "react-router-dom";
 import opent from "./icons/icons8-ios-app-icon-shape-100.png"; 
 import closet from "./icons/icons8-ios-app-icon-shape-160.png"; 
 import "./style.css";
@@ -7,7 +7,6 @@ import "./style.css";
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(0);
-  const location = useLocation();
 
   const trackScreenWidth = () => {
     const width = window.innerWidth;
@@ -21,6 +20,7 @@ const NavBar = () => {
     if (screenWidth < 600) {
       setOpen(false);
     }
+    
   };
 
   useEffect(() => {
@@ -61,6 +61,14 @@ const NavBar = () => {
                
               >
                 Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/About"
+                onClick={handleClose}               
+              >
+                About
               </Link>
             </li>
             

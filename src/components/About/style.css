@@ -1,0 +1,44 @@
+.bar {
+    width: 90%;
+    background-color: #ebecec;
+    border-radius: 20px;
+    margin-bottom: 3%;
+
+}
+
+.bar__icon {
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+}
+
+.bar__wrapper {
+    background-image: linear-gradient(90deg, #707070, #505050);
+    border-radius: 20px;
+    padding: 1% 3%;
+    color: #fff;
+    font-size: 0.9rem
+}
+
+.resume {
+    padding-top: 4%;
+    width: 80%;
+}
+
+.resume-card__heading,
+.reume-language__heading {
+    margin: 3%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.resume-card__body {
+    margin-top: 10px;
+
+}
+
+.resume-card__details {
+    font-size:14px;
+    padding-top: 5px;
+}

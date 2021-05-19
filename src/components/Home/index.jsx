@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, useLocation } from "react-router-dom";
 import photo from "./images/image0[115] (2).jpeg";
 import "./style.css";
 
@@ -21,9 +20,6 @@ const Home = () => {
           <p>Web App developer</p>
         </h2>
         <h3><p>HTML / CSS / JavaScript / React.js / Redux / Python / Django </p></h3>
-        <Link to="about">
-          <button>More Info</button>
-        </Link>
       </div>
       
     </div>
