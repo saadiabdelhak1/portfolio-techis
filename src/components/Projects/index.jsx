@@ -16,10 +16,18 @@ const Projects = () => {
                    <img src={twitter} alt="twitter image"/>
                  </div>
                  <div className="about">
-                    <h2>Twitter Project</h2>
-                    <p>Built a Social Media App like Twitter from Scratch using 
-                       HTML/CSS/JavaScript for the front end and Django(python) for the 
-                       Backend & MySQL for the database. </p>
+                    <h2>Twitter clone Project</h2>
+                    <h3>Technologies Used</h3>
+                    <p>Python 80%, JavaScript 5%, HTML & CSS 15%, Cloudinary(cloud storage for images)</p>
+                    <h3>User Story</h3>
+                    <ul>
+                      <li>User can post tweets</li>
+                      <li>User can Edit tweets</li>
+                      <li>User can delet tweets</li>
+                      <li>User can comment</li>
+                    </ul>
+                    <h3>Deployment</h3>
+                    <p>Github and Herpku</p>
                     
                     <div className="links">
                         <a className="github">Github</a>
@@ -33,10 +41,17 @@ const Projects = () => {
                 </div>
                 <div className="about">
                     <h2>Netflix Project</h2>
-                    <p>Build a Streaming App like Netflix from scratch using React/Redux
-                       and Django. Where you can create an account, login to your account 
-                       and watch trailers using design similar to original Netflix.
-                    </p>
+                    <h3>Technologies Used</h3>
+                    <p>Python(django IPA) 30%, React & Redux 50%, HTML & CSS 20%, Cloudinary(cloud storage for images)</p>
+                    <h3>User Story</h3>
+                      <ul>
+                        <li>User can Creact an account</li>
+                        <li>User can login</li>
+                        <li>User can search for movies</li>
+                        <li>User can add movies to favorit list </li>
+                      </ul>
+                    <h3>Deployment</h3>
+                    <p>Github and Herpku</p>
                     <div className="links">
                         <a className="github">Github</a>
                         <a className="website">WebSite</a>

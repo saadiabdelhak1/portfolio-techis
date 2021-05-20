@@ -29,6 +29,14 @@
   top: 80%;
 }
 
+.box li {
+  margin-left: 4%;
+}
+.box p {
+  margin-left: 2%;
+}
+
+
 .box .about .links .github {
   border: none;
   outline: none;
