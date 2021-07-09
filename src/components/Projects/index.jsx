@@ -30,8 +30,8 @@ const Projects = () => {
                     <p>Github and Herpku</p>
                     
                     <div className="links">
-                        <a className="github">Github</a>
-                        <a className="website">WebSite</a>
+                        <a className="github" href="https://github.com/saadiabdelhak1/twitter">Github</a>
+                        <a className="website" href="https://twitter-abdelhak.herokuapp.com/">WebSite</a>
                     </div>
                  </div>   
               </div>
@@ -51,7 +51,7 @@ const Projects = () => {
                         <li>User can add movies to favorit list </li>
                       </ul>
                     <h3>Deployment</h3>
-                    <p>Github and Herpku</p>
+                    <p>Github and Heroku</p>
                     <div className="links">
                         <a className="github">Github</a>
                         <a className="website">WebSite</a>
