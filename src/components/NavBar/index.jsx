@@ -30,7 +30,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className="navbar">
+    <div className="navbar">
       <div className="nav-wrapper">
         <div className="logo">
             <h1> <span className="green">A</span>bdelhak </h1>
@@ -65,7 +65,7 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to="/About"
+                to="{/About}"
                 onClick={handleClose}               
               >
                 About
@@ -83,7 +83,7 @@ const NavBar = () => {
           </ul>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 

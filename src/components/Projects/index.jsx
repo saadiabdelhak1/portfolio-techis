@@ -1,6 +1,7 @@
 import React from 'react';
 import twitter from "./images/project-twitter-min.png";
 import netflix from "./images/project-netflix-min.png";
+import TECHshop from "./images/project-TECHshop-min.png";
 import "./style.css";
 
 const Projects = () => {
@@ -55,6 +56,29 @@ const Projects = () => {
                     <div className="links">
                         <a className="github">Github</a>
                         <a className="website">WebSite</a>
+                    </div>
+                </div>   
+              </div>
+              <div className="box">
+                <div className="image">
+                   <img src={TECHshop} alt="Netflix image"/>
+                </div>
+                <div className="about">
+                    <h2>TECHshop</h2>
+                    <h1>LOADING ...</h1>
+                    <p></p>
+                    <h3></h3>
+                      <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                      </ul>
+                    <h3>Deployment</h3>
+                    <p>Github and Heroku</p>
+                    <div className="links">
+                        <a className="github" href="https://github.com/techis-fantastic-4/e-commerce">Github</a>
+                        <a className="website" href="https://fantastic4-commerce.herokuapp.com/">WebSite</a>
                     </div>
                 </div>   
               </div>
