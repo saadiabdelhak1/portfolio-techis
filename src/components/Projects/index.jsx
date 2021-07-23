@@ -54,14 +54,14 @@ const Projects = () => {
                     <h3>Deployment</h3>
                     <p>Github and Heroku</p>
                     <div className="links">
-                        <a className="github">Github</a>
-                        <a className="website">WebSite</a>
+                        <a className="github" >Github</a>
+                        <a className="website" href="https://netflix-abdelhak.herokuapp.com/">WebSite</a>
                     </div>
                 </div>   
               </div>
               <div className="box">
                 <div className="image">
-                   <img src={TECHshop} alt="Netflix image"/>
+                   <img src={TECHshop} alt="TECHshop image"/>
                 </div>
                 <div className="about">
                     <h2>TECHshop</h2>
