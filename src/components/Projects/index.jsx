@@ -12,6 +12,30 @@ const Projects = () => {
           </div> 
           
           <div className="container">
+          <div className="box">
+                <div className="image">
+                   <img src={TECHshop} alt="TECHshop image"/>
+                </div>
+                <div className="about">
+                <h2>TECHshop e-commerce website</h2>
+                    <h3>Technologies Used</h3>
+                    <p>API: Django. Frontend: React, Redux. Database: sqlite3. Web Server & Deploy: Heroku</p>
+                    <h3>User Story</h3>
+                    <ul>
+                      <li>Creat and account</li>
+                      <li>shop</li>
+                      <li>add and delete wishlist</li>
+                      <li>buy products</li>
+                    </ul>
+                    <h3>Deployment</h3>
+                    <p>Github and Herpku</p>
+                     
+                    <div className="links">
+                        <a className="github" href="https://github.com/techis-fantastic-4/e-commerce">Github</a>
+                        <a className="website" href="https://fantastic4-commerce.herokuapp.com/">WebSite</a>
+                    </div>
+                </div>   
+              </div>
               <div className="box">
                  <div className="image">
                    <img src={twitter} alt="twitter image"/>
@@ -56,29 +80,6 @@ const Projects = () => {
                     <div className="links">
                         <a className="github" >Github</a>
                         <a className="website" href="https://netflix-abdelhak.herokuapp.com/">WebSite</a>
-                    </div>
-                </div>   
-              </div>
-              <div className="box">
-                <div className="image">
-                   <img src={TECHshop} alt="TECHshop image"/>
-                </div>
-                <div className="about">
-                    <h2>TECHshop</h2>
-                    <h1>LOADING ...</h1>
-                    <p></p>
-                    <h3></h3>
-                      <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                    <h3>Deployment</h3>
-                    <p>Github and Heroku</p>
-                    <div className="links">
-                        <a className="github" href="https://github.com/techis-fantastic-4/e-commerce">Github</a>
-                        <a className="website" href="https://fantastic4-commerce.herokuapp.com/">WebSite</a>
                     </div>
                 </div>   
               </div>

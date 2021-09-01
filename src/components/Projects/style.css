@@ -27,6 +27,7 @@
 .box .about .links {
   display: flex;
   top: 80%;
+  text-decoration: none;
 }
 
 .box li {
@@ -48,6 +49,7 @@
   border-radius: 10%;
   background-color: #8b8b8b80;
   font-family: sans-serif;
+  text-decoration: none;
 }
 .box .about .links .website {
   border: none;
@@ -60,5 +62,6 @@
   border-radius: 10%;
   background-color: #2e2e2e80;
   font-family: sans-serif;
+  text-decoration: none;
 }
 
